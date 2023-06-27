@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VR Platform</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://media.istockphoto.com/id/1324380506/photo/people-with-vr-grasses-playing-virtual-reality-game-future-digital-technology-and-3d-virtual.jpg?s=612x612&w=0&k=20&c=I_9fnEi1hNHFwy0qe8g7V1ZQJmgyKEDOSDJonScTSMU=');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Define your CSS styles for UI, navigation, and content */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            transition: background-color 0.3s ease;
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .experience-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .experience-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .experience-card:hover {
+            transform: scale(1.05);
+        }
+
+        .category-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .category-list li {
+            margin-bottom: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        .category-list li:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Add your logo and navigation menu here -->
+        <h1>VR Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.playstation.com/en-in/ps-vr2/">Home</a></li>
+                <li><a href="https://www.playstation.com/en-in/ps-vr2/games/">Game Selection</a></li>
+                <li><a href="https://www.playstation.com/en-in/ps-vr2/ps-vr2-features/">Additional Features</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Add your VR experiences or content here -->
+        <section>
+            <h2>Featured Experiences</h2>
+            <!-- Add a grid or carousel to showcase VR experiences -->
+            <div class="experience-grid">
+                <!-- Add individual experience cards or tiles -->
+                <div class="experience-card">
+                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/horizon-call-of-the-mountain-hero-banner-desktop-01-01jun22?$1600px$" alt="Experience 1">
+                    <h3 class="txt-style-medium-title  txt-block-paragraph__title">
+                        Horizon Call of the Mountain™
+                    </h3>
+                </div>
+                <div class="experience-card">
+                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/gt7-keyart-no-logo-01-en-9mar22?$1600px$" alt="Experience 2">
+                    <h4 class="txt-style-medium-title  txt-block-paragraph__title">
+                        Gran Tourismo 7™
+                    </h4>
+                </div>
+                <!-- Add more experience cards -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Categories</h2>
+            <!-- Add a grid or list of categories -->
+            <ul class="category-list">
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Travel</a></li>
+                <!-- Add more categories -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Community</h2>
+            <!-- Add community features such as user profiles, comments, etc. -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Add your footer content here -->
+        <p>&copy; 2023 VR Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
